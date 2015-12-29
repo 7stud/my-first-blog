@@ -1,1 +1,6 @@
 .*.s[a-w][a-z]
+__pycache__
+djgirls
+db.sqlite3
+/static
+.DS_Store

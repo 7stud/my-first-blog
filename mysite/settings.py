@@ -29,8 +29,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
-
 DEFAULT_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
