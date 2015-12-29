@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 
-def greeting(request):
-    return HttpResponse("Hi Beth!")
+def list_of_posts(request):
+    return render(request, 'blog/list_of_posts.html', {})
